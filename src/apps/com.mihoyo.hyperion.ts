@@ -163,8 +163,8 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/16996319',
         },
       ],
-    },{
-
+    },
+    {
       key: 8,
       name: '功能类-崩坏三自动签到',
       desc: '点击签到-关闭弹窗-返回',
@@ -174,10 +174,8 @@ export default defineGkdApp({
         {
           key: 0,
           name: '点击签到',
-          matches:
-            '[text="【崩坏3】每日签到"] >4 View > View + TextView',
-          exampleUrls:
-            'https://e.gkd.li/9a5e3d4d-1bba-4d45-8db4-12d5457c12e0',
+          matches: '[text="【崩坏3】每日签到"] >4 View > View + TextView',
+          exampleUrls: 'https://e.gkd.li/9a5e3d4d-1bba-4d45-8db4-12d5457c12e0',
           snapshotUrls: [
             'https://i.gkd.li/i/17452726',
             'https://i.gkd.li/i/17452726',
@@ -187,10 +185,8 @@ export default defineGkdApp({
           preKeys: 0,
           key: 1,
           name: '关闭签到后的弹窗',
-          matches:
-            '[text="【崩坏3】每日签到"] >3 TextView[visibleToUser=true]',
-          exampleUrls:
-            'https://e.gkd.li/d335b286-9776-4193-a7bb-ad5702241111',
+          matches: '[text="【崩坏3】每日签到"] >3 TextView[visibleToUser=true]',
+          exampleUrls: 'https://e.gkd.li/d335b286-9776-4193-a7bb-ad5702241111',
           snapshotUrls: [
             'https://i.gkd.li/i/17452725',
             'https://i.gkd.li/i/14967631', // clickable=false
@@ -202,13 +198,12 @@ export default defineGkdApp({
           name: '返回上一个页面',
           matches:
             '[text="【崩坏3】每日签到"] > View > View[index=0] >3 TextView[clickable=true]',
-          exampleUrls:
-            'https://e.gkd.li/62322e24-e53a-4f79-ab4d-411e5c902651',
+          exampleUrls: 'https://e.gkd.li/62322e24-e53a-4f79-ab4d-411e5c902651',
           snapshotUrls: 'https://i.gkd.li/i/17452951',
         },
       ],
-    },{
-
+    },
+    {
       key: 9,
       name: '功能类-绝区零自动签到',
       desc: '点击签到-关闭弹窗-返回',
@@ -218,10 +213,8 @@ export default defineGkdApp({
         {
           key: 0,
           name: '点击签到',
-          matches:
-            '[text="【绝区零】每日签到"] >4 View > View + TextView',
-          exampleUrls:
-            'https://e.gkd.li/f779184c-bfe2-40eb-a0f6-61cdf3d2aeca',
+          matches: '[text="【绝区零】每日签到"] >4 View > View + TextView',
+          exampleUrls: 'https://e.gkd.li/f779184c-bfe2-40eb-a0f6-61cdf3d2aeca',
           snapshotUrls: [
             'https://i.gkd.li/i/17452942',
             'https://i.gkd.li/i/17452943',

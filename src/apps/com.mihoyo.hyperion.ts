@@ -9,7 +9,8 @@ export default defineGkdApp({
       name: '功能类-崩坏三自动签到',
       desc: '点击签到-关闭弹窗-返回',
       forcedTime: 5000,
-      activityIds: 'com.mihoyo.hyperion.web2.MiHoYoWebActivity',
+      activityIds:
+       'com.mihoyo.hyperion.web2.MiHoYoWebActivity',
       rules: [
         {
           key: 0,
@@ -27,9 +28,12 @@ export default defineGkdApp({
         {
           preKeys: 0,
           key: 1,
-          name: '关闭签到后的弹窗',
-          matches: '[text="【崩坏3】每日签到"] >3 TextView[visibleToUser=true]',
-          exampleUrls: 'https://e.gkd.li/d335b286-9776-4193-a7bb-ad5702241111',
+          name:
+           '关闭签到后的弹窗',
+          matches:
+           '[text="【崩坏3】每日签到"] >3 TextView[visibleToUser=true]',
+          exampleUrls:
+           'https://e.gkd.li/d335b286-9776-4193-a7bb-ad5702241111',
           snapshotUrls: [
             'https://i.gkd.li/i/17452725',
             'https://i.gkd.li/i/14967631', // clickable=false
@@ -38,11 +42,14 @@ export default defineGkdApp({
         {
           preKeys: 1,
           key: 2,
-          name: '返回上一个页面',
+          name:
+           '返回上一个页面',
           matches:
             '[text="【崩坏3】每日签到"] > View > View[index=0] >3 TextView[clickable=true]',
-          exampleUrls: 'https://e.gkd.li/62322e24-e53a-4f79-ab4d-411e5c902651',
-          snapshotUrls: 'https://i.gkd.li/i/17452951',
+          exampleUrls: 
+            'https://e.gkd.li/62322e24-e53a-4f79-ab4d-411e5c902651',
+          snapshotUrls:
+           'https://i.gkd.li/i/17452951',
         },
       ],
     },
@@ -56,12 +63,12 @@ export default defineGkdApp({
         {
           key: 0,
           name: '点击签到',
-          matches: '[text="【绝区零】每日签到"] >4 View > View + TextView',
-          exampleUrls: 'https://e.gkd.li/f779184c-bfe2-40eb-a0f6-61cdf3d2aeca',
-          snapshotUrls: [
-            'https://i.gkd.li/i/17452942',
-            'https://i.gkd.li/i/17452943',
-          ],
+          matches:
+           '[text="【绝区零】每日签到"] >4 View + View > View + View',
+          exampleUrls: 
+            'https://e.gkd.li/262a5337-fc3f-4201-8cba-a2671abdfa32',
+          snapshotUrls: 
+            'https://i.gkd.li/i/17483891',
         },
         {
           preKeys: 0,
@@ -69,22 +76,21 @@ export default defineGkdApp({
           name: '关闭签到后的弹窗',
           matches:
             '[text="【绝区零】每日签到"] >3 TextView[visibleToUser=true]',
-          exampleUrls:
-            'https://m.gkd.li/57941037/3babb231-30a7-4891-9c4a-c11946838741',
-          snapshotUrls: [
-            'https://i.gkd.li/i/14371787',
-            'https://i.gkd.li/i/14967631', // clickable=false
-          ],
+            exampleUrls: 
+              'https://e.gkd.li/fb4e5265-ae7d-47d1-a4c2-4ce5c3c42deb',
+            snapshotUrls: 
+              'https://i.gkd.li/i/17484071',
         },
         {
           preKeys: 1,
           key: 2,
           name: '返回上一个页面',
           matches:
-            '[text="【绝区零】每日签到"] > View > View[index=0] >3 TextView[clickable=true]',
+           '[text="【绝区零】每日签到"] > View > View[index=0] >3 TextView[clickable=true]',
           exampleUrls:
-            'https://m.gkd.li/57941037/d8031907-105b-4d37-8542-b71e854b3b8a',
-          snapshotUrls: 'https://i.gkd.li/i/14371790',
+           'https://e.gkd.li/262a5337-fc3f-4201-8cba-a2671abdfa32',
+          snapshotUrls:
+           'https://i.gkd.li/i/17483891',
         },
       ],
     },

@@ -17,6 +17,9 @@ importers:
       '@gkd-kit/define':
         specifier: 0.0.1
         version: 0.0.1(@gkd-kit/api@0.5.0)
+      '@gkd-kit/subscription-template':
+        specifier: 'file:'
+        version: file:(@typescript-eslint/eslint-plugin@8.9.0(@typescript-eslint/parser@8.9.0(eslint@9.12.0(jiti@1.21.0))(typescript@5.6.3))(eslint@9.12.0(jiti@1.21.0))(typescript@5.6.3))(jiti@1.21.0)
       '@gkd-kit/tools':
         specifier: 0.5.2
         version: 0.5.2(@gkd-kit/api@0.5.0)(json5@2.2.3)
@@ -247,6 +250,10 @@ packages:
 
   '@gkd-kit/selector@0.4.1':
     resolution: {integrity: sha512-3OxUl5jQpdZbf7zaVi0+hq2hLlCEmmPljowSIHk78Ko09hTQ7RQ/MAyybTVEUNNKT6Xgm6NxLCj+5shOBe7gbg==}
+
+  '@gkd-kit/subscription-template@file:':
+    resolution: {directory: '', type: directory}
+    engines: {node: '>=22'}
 
   '@gkd-kit/tools@0.5.2':
     resolution: {integrity: sha512-tkmAjzw+VYJXbdO2iKu1VLR81EXsmxg9yDVapoJfgh+uaiK8ubKM2y/7d1Z98ILxUs89NxLa0orXdX+GvOUJqA==}
@@ -1059,6 +1066,29 @@ snapshots:
       '@gkd-kit/api': 0.5.0
 
   '@gkd-kit/selector@0.4.1': {}
+
+  '@gkd-kit/subscription-template@file:(@typescript-eslint/eslint-plugin@8.9.0(@typescript-eslint/parser@8.9.0(eslint@9.12.0(jiti@1.21.0))(typescript@5.6.3))(eslint@9.12.0(jiti@1.21.0))(typescript@5.6.3))(jiti@1.21.0)':
+    dependencies:
+      '@eslint/js': 9.12.0
+      '@gkd-kit/api': 0.5.0
+      '@gkd-kit/define': 0.0.1(@gkd-kit/api@0.5.0)
+      '@gkd-kit/tools': 0.5.2(@gkd-kit/api@0.5.0)(json5@2.2.3)
+      '@types/eslint__js': 8.42.3
+      '@types/node': 22.7.6
+      eslint: 9.12.0(jiti@1.21.0)
+      eslint-config-prettier: 9.1.0(eslint@9.12.0(jiti@1.21.0))
+      eslint-plugin-unused-imports: 4.1.4(@typescript-eslint/eslint-plugin@8.9.0(@typescript-eslint/parser@8.9.0(eslint@9.12.0(jiti@1.21.0))(typescript@5.6.3))(eslint@9.12.0(jiti@1.21.0))(typescript@5.6.3))(eslint@9.12.0(jiti@1.21.0))
+      json5: 2.2.3
+      lint-staged: 15.2.10
+      prettier: 3.3.3
+      simple-git-hooks: 2.11.1
+      tsx: 4.19.1
+      typescript: 5.6.3
+      typescript-eslint: 8.9.0(eslint@9.12.0(jiti@1.21.0))(typescript@5.6.3)
+    transitivePeerDependencies:
+      - '@typescript-eslint/eslint-plugin'
+      - jiti
+      - supports-color
 
   '@gkd-kit/tools@0.5.2(@gkd-kit/api@0.5.0)(json5@2.2.3)':
     dependencies:

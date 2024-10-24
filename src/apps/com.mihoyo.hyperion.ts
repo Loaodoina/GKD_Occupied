@@ -16,7 +16,7 @@ export default defineGkdApp({
           key: 0,
           name: '点击签到',
           matches:
-           '[text="【崩坏3】每日签到"] >4 View > View + View',
+           '[clickable=true] + [childCount=3] + [text=""]',
           exampleUrls:
             'https://e.gkd.li/d9200396-df61-4a3b-8f86-973977c19621',
 

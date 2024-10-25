@@ -14,7 +14,8 @@ export default defineGkdApp({
         {
           key: 0,
           name: '点击签到',
-          matches: '[clickable=true] + [childCount=3] + [text=""]',
+          matches:
+            '[text="【崩坏3】每日签到"] >4 View[childCount=11] > @View[childCount=3][visibleToUser=true] > Image[index=0]',
           exampleUrls: 'https://e.gkd.li/d9200396-df61-4a3b-8f86-973977c19621',
 
           snapshotUrls: [
@@ -54,7 +55,8 @@ export default defineGkdApp({
         {
           key: 0,
           name: '点击签到',
-          matches: '[clickable=true] + [childCount=3] + [text=""]',
+          matches:
+            '[text="【绝区零】每日签到"] >4 View[childCount=11] > @View[childCount=3][visibleToUser=true] > Image[index=0]',
           exampleUrls: 'https://e.gkd.li/262a5337-fc3f-4201-8cba-a2671abdfa32',
           snapshotUrls: 'https://i.gkd.li/i/17483891',
         },
